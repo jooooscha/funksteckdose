@@ -22,14 +22,13 @@ path = "src/lib.rs"
 [[bin]]
 name = "funksteckdose"
 path = "src/main.rs"
-doc = false 
+doc = false
 
 [dependencies]
 failure = "0.1.5"
 log = "0.4.6"
 structopt = "0.2.16"
-# wiringpi = { version = "0.2.4", optional = true }
-wiringpi = { git = "https://github.com/jvandervelden/rust-wiringpi", optional = true }
+wiringpi = { git = "https://github.com/mwallner/rust-wiringpi", optional = true }
 
 [features]
 default = []
